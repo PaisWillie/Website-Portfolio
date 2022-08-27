@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import * as React from 'react';
 
+import Header from '@/components/layout/Header';
 import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
 import Seo from '@/components/Seo';
@@ -23,6 +24,7 @@ export default function HomePage() {
       <Seo />
 
       <main>
+        <Header />
         <section className='bg-white'>
           <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
             <h1 className='mb-2'>Willie Pai</h1>
