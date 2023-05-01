@@ -18,10 +18,16 @@ class MyDocument extends Document {
         <Head>
           <link
             rel='preload'
-            href='/fonts/inter-var-latin.woff2'
+            href='/fonts/monolisa-font.ttf'
             as='font'
-            type='font/woff2'
+            type='font/ttf'
             crossOrigin='anonymous'
+          />
+          <link rel='preconnect' href='https://fonts.googleapis.com' />
+          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link
+            href='https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'
+            rel='stylesheet'
           />
         </Head>
         <body>

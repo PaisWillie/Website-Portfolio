@@ -3,24 +3,38 @@ import * as React from 'react';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/', label: 'About Me' },
-  { href: '/', label: 'Projects' },
-  { href: '/', label: 'Experiences' },
-  { href: '/', label: 'Resume' },
+  { href: '/#about-me', label: 'About Me' },
+  { href: '/#projects', label: 'Projects' },
+  // { href: '/', label: 'Experiences' },
+  { href: '/resume', label: 'Resume' },
 ];
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-50 bg-white'>
+    <header className='sticky top-0 z-50 bg-black pb-12'>
       <div className='layout flex h-14 items-center justify-between'>
-        <UnstyledLink href='/' className='font-bold hover:text-gray-600'>
-          Home
+        <UnstyledLink
+          href='/'
+          className='font-bold text-gray-400 hover:text-white'
+        >
+          {/* <NextImage
+            src='/images/profile-icon/notion-style-selfie-circle-fit.png'
+            useSkeleton
+            className='w-12'
+            width='2840'
+            height='2840'
+            alt='PaisWillie Icon'
+          /> */}
+          williep.ai
         </UnstyledLink>
         <nav>
           <ul className='flex items-center justify-between space-x-4'>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
-                <UnstyledLink href={href} className='hover:text-gray-600'>
+                <UnstyledLink
+                  href={href}
+                  className='text-gray-400 hover:text-white'
+                >
                   {label}
                 </UnstyledLink>
               </li>
