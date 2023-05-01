@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'Willie Pai',
   siteName: "Willie Pai's Website Portfilio",
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    "I'm a Canadian 4th year software engineering student at McMaster University. I'm passionate about building mobile and web applications that focus on simplicity & usability.",
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://williep.ai',
   type: 'website',

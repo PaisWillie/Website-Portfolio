@@ -1,9 +1,13 @@
-import Image from 'next/image';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Divider, IconButton } from '@mui/material';
 import * as React from 'react';
 
-import Header from '@/components/layout/Header';
 import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
+import UnderlineLink from '@/components/links/UnderlineLink';
+import NextImage from '@/components/NextImage';
 import Seo from '@/components/Seo';
 
 /**
@@ -24,26 +28,67 @@ export default function HomePage() {
       <Seo />
 
       <main>
-        <Header />
-        <section className='bg-white'>
-          <div className='layout flex min-h-screen flex-col items-center justify-center text-center'>
-            <h1 className='mb-2'>Willie Pai</h1>
-            <p className='mb-2'>Software Engineering Student</p>
-            <div className='mb-10 flex flex-row justify-center'>
-              <p className='mr-5'>
-                <ArrowLink href='/about-me'>Learn more</ArrowLink>
-              </p>
-              <p>
-                <ArrowLink href='/resume'>Resume</ArrowLink>
-              </p>
+        <section className='bg-black md:px-24 lg:px-48 xl:px-96'>
+          <div className='layout items-left flex min-h-screen flex-col justify-start text-left'>
+            <h1 className='text-white'>Software Developer</h1>
+            <h1 className='text-white'>creating thoughtful,</h1>
+            <h1 className='text-white'>intuitive mobile & web apps.</h1>
+            <a id='about-me' />
+            <p className='mt-12 text-gray-400'>
+              I&apos;m Willie, a Canadian 4th year software engineering student
+              at McMaster University. My passion lies in crafting user-friendly
+              mobile and web applications, where simplicity and usability are at
+              the forefront of design. I believe that a well-designed user
+              interface is integral to delivering an exceptional user
+              experience, and I love implementing this principle in my work.
+            </p>
+            <p className='mt-6 text-gray-400'>
+              I&apos;m currently looking for a 8 or 12-month co-op internship
+              starting in Fall 2023. If you&apos;re interested in working
+              together, feel free to reach out!
+            </p>
+            <div className='my-8 -ml-3 flex-row'>
+              <IconButton
+                href='https://www.linkedin.com/in/willie-pai/'
+                target='blank'
+              >
+                <LinkedInIcon className='text-gray-400' />
+              </IconButton>
+              <IconButton href='https://github.com/PaisWillie' target='blank'>
+                <GitHubIcon className='text-gray-400' />
+              </IconButton>
+              <IconButton href='mailto:paiw@mcmaster.ca' target='blank'>
+                <EmailIcon className='text-gray-400' />
+              </IconButton>
+              <ArrowLink href='/resume' className='ml-6 text-gray-400'>
+                My Resume
+              </ArrowLink>
             </div>
-            <Image
-              className='pointer-events-none'
-              src='/../images/notion-style-selfie.svg'
-              alt='Notion-styled self portrait'
-              width={400}
-              height={400}
-            />
+            <Divider className='bg-white' />
+            <a id='projects' />
+            <div className='mt-24 mb-24'>
+              <div className='flex flex-row items-center justify-between'>
+                <NextImage
+                  useSkeleton
+                  className='w-6/12'
+                  src='/images/cabpool/cabpool-stacked.jpg'
+                  width='1094'
+                  height='1314'
+                  alt='Cabpool Destination Select & Status'
+                />
+                <div className='text-right'>
+                  <UnderlineLink
+                    href='https://github.com/PaisWillie/Cabpool-Frontend/'
+                    target='_blank'
+                  >
+                    <h2 className='text-white'>Cabpool</h2>
+                  </UnderlineLink>
+                  <h5 className='text-gray-400'>
+                    Cab + Carpooling. You get the jist.
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
