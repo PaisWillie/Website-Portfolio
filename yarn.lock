@@ -1808,6 +1808,14 @@
     "@react-spring/shared" "~9.7.2"
     "@react-spring/types" "~9.7.2"
 
+"@react-spring/parallax@^9.7.2":
+  "integrity" "sha512-RLEU9yVe7PqaXJgEe6HPWB/kM0KmVLSikh8laedFmjUURfQSHmk8/jFzyGwKqnnNXVQ7rFLli75FcDabrnhwfQ=="
+  "resolved" "https://registry.npmjs.org/@react-spring/parallax/-/parallax-9.7.2.tgz"
+  "version" "9.7.2"
+  dependencies:
+    "@react-spring/shared" "~9.7.2"
+    "@react-spring/web" "~9.7.2"
+
 "@react-spring/rafz@~9.7.2":
   "integrity" "sha512-kDWMYDQto3+flkrX3vy6DU/l9pxQ4TVW91DglQEc11iDc7shF4+WVDRJvOVLX+xoMP7zyag1dMvlIgvQ+dvA/A=="
   "resolved" "https://registry.npmjs.org/@react-spring/rafz/-/rafz-9.7.2.tgz"
@@ -1826,7 +1834,7 @@
   "resolved" "https://registry.npmjs.org/@react-spring/types/-/types-9.7.2.tgz"
   "version" "9.7.2"
 
-"@react-spring/web@^9.7.2":
+"@react-spring/web@^9.7.2", "@react-spring/web@~9.7.2":
   "integrity" "sha512-7qNc7/5KShu2D05x7o2Ols2nUE7mCKfKLaY2Ix70xPMfTle1sZisoQMBFgV9w/fSLZlHZHV9P0uWJqEXQnbV4Q=="
   "resolved" "https://registry.npmjs.org/@react-spring/web/-/web-9.7.2.tgz"
   "version" "9.7.2"
