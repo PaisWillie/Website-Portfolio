@@ -98,7 +98,7 @@ export default function HomePage() {
                 <div className='flex flex-row items-center justify-between'>
                   <div className='w-7/12 text-left'>
                     <UnderlineLink
-                      href='https://github.com/PaisWillie/Cabpool-Frontend/'
+                      href='https://github.com/PaisWillie/WaveDirect-App'
                       target='_blank'
                     >
                       <h2 className='text-white'>WaveDirect App</h2>
