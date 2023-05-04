@@ -19,10 +19,10 @@ export default function Resume() {
       <main>
         <section className='bg-black  px-96'>
           <div className='layout flex min-h-screen flex-col items-center justify-center text-left'>
-            <Document file='resume.pdf'>
+            <Document file='/pdfs/resume.pdf'>
               <Page pageNumber={1} />
             </Document>
-            <ArrowLink href='/resume.pdf' className='mt-2 text-white'>
+            <ArrowLink href='/pdfs/resume.pdf' className='mt-2 text-white'>
               Download
             </ArrowLink>
           </div>

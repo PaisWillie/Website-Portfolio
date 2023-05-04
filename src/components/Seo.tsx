@@ -5,9 +5,9 @@ import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
   title: 'Willie Pai',
-  siteName: "Willie Pai's Website Portfilio",
+  siteName: 'Willie Pai',
   description:
-    "I'm a Canadian 4th year software engineering student at McMaster University. I'm passionate about building mobile and web applications that focus on simplicity & usability.",
+    "A Canadian 4th year software engineering student who's passionate about building mobile and web applications that focus on simplicity & usability.",
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
   url: 'https://williep.ai',
   type: 'website',
