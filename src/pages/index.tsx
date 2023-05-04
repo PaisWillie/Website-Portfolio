@@ -31,9 +31,9 @@ export default function HomePage() {
         <section className='bg-black md:px-24 lg:px-48 xl:px-96'>
           <div className='layout items-left flex min-h-screen flex-col justify-start text-left'>
             <h1 className='text-white'>Software Developer</h1>
+            <a id='about-me' />
             <h1 className='text-white'>creating thoughtful,</h1>
             <h1 className='text-white'>intuitive mobile & web apps.</h1>
-            <a id='about-me' />
             <p className='mt-12 text-gray-400'>
               I&apos;m Willie, a Canadian 4th year software engineering student
               at McMaster University. My passion lies in crafting user-friendly
@@ -43,7 +43,7 @@ export default function HomePage() {
               experience, and I love implementing this principle in my work.
             </p>
             <p className='mt-6 text-gray-400'>
-              I&apos;m currently looking for a 8 or 12-month co-op internship
+              I&apos;m currently looking for an 8 or 12-month co-op internship
               starting in Fall 2023. If you&apos;re interested in working
               together, feel free to reach out!
             </p>
@@ -64,28 +64,62 @@ export default function HomePage() {
                 My Resume
               </ArrowLink>
             </div>
-            <Divider className='bg-white' />
             <a id='projects' />
-            <div className='mt-24 mb-24'>
-              <div className='flex flex-row items-center justify-between'>
-                <NextImage
-                  useSkeleton
-                  className='w-6/12'
-                  src='/images/cabpool/cabpool-stacked.jpg'
-                  width='1094'
-                  height='1314'
-                  alt='Cabpool Destination Select & Status'
-                />
-                <div className='text-right'>
-                  <UnderlineLink
-                    href='https://github.com/PaisWillie/Cabpool-Frontend/'
-                    target='_blank'
-                  >
-                    <h2 className='text-white'>Cabpool</h2>
-                  </UnderlineLink>
-                  <h5 className='text-gray-400'>
-                    Cab + Carpooling. You get the jist.
-                  </h5>
+            <Divider className='bg-white' />
+            <div className='mb-24'>
+              <div className='mt-24'>
+                <div className='flex flex-row items-center justify-between'>
+                  <NextImage
+                    useSkeleton
+                    className='w-5/12'
+                    src='/images/cabpool/cabpool-stacked.jpg'
+                    width='1094'
+                    height='1314'
+                    alt='Cabpool Destination Select & Status'
+                  />
+                  <div className='w-7/12 text-right'>
+                    <UnderlineLink
+                      href='https://github.com/PaisWillie/Cabpool-Frontend/'
+                      target='_blank'
+                    >
+                      <h2 className='text-white'>Cabpool</h2>
+                    </UnderlineLink>
+                    <h5 className='text-gray-400'>
+                      Taxi + Carpooling. You get the jist.
+                    </h5>
+                    <p className='text-sm italic text-gray-600'>
+                      React Native, TypeScript, Node.js, Express.js, Firebase,
+                      Google Maps API
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='mt-24'>
+                <div className='flex flex-row items-center justify-between'>
+                  <div className='w-7/12 text-left'>
+                    <UnderlineLink
+                      href='https://github.com/PaisWillie/Cabpool-Frontend/'
+                      target='_blank'
+                    >
+                      <h2 className='text-white'>WaveDirect App</h2>
+                    </UnderlineLink>
+                    <h5 className='text-gray-400'>
+                      2x hackathon winner.
+                      <br />
+                      Built for WaveDirect customers.
+                    </h5>
+                    <p className='text-sm italic text-gray-600'>
+                      Flutter, Dart, Google Maps API
+                    </p>
+                  </div>
+                  <NextImage
+                    useSkeleton
+                    className='w-5/12'
+                    src='/images/wavedirect-app/wavedirect-stacked.jpg'
+                    width='798'
+                    height='942'
+                    alt='WaveDirect App Startup and Home Screen'
+                  />
                 </div>
               </div>
             </div>
