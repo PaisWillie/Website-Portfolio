@@ -26,9 +26,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Seo />
-
       <main>
-        <section className='bg-black md:px-24 lg:px-48 xl:px-96'>
+        <section className='bg-black pb-24 md:px-24 lg:px-48 xl:px-96'>
           <div className='layout items-left flex min-h-screen flex-col justify-start text-left'>
             <h1 className='text-white'>Software Developer</h1>
             <a id='about-me' />
@@ -66,60 +65,87 @@ export default function HomePage() {
             </div>
             <a id='projects' />
             <Divider className='bg-white' />
-            <div className='mb-24'>
-              <div className='mt-24'>
-                <div className='flex flex-row items-center justify-between'>
-                  <NextImage
-                    useSkeleton
-                    className='w-5/12'
-                    src='/images/cabpool/cabpool-stacked.jpg'
-                    width='1094'
-                    height='1314'
-                    alt='Cabpool Destination Select & Status'
-                  />
-                  <div className='w-7/12 text-right'>
-                    <UnderlineLink
-                      href='https://github.com/PaisWillie/Cabpool-Frontend/'
-                      target='_blank'
-                    >
-                      <h2 className='text-white'>Cabpool</h2>
-                    </UnderlineLink>
-                    <h5 className='text-gray-400'>
-                      Taxi + Carpooling. You get the jist.
-                    </h5>
-                    <p className='text-sm italic text-gray-600'>
-                      React Native, TypeScript, Node.js, Express.js, Firebase,
-                      Google Maps API
-                    </p>
-                  </div>
+            <div className='mt-24'>
+              <div className='flex flex-row items-center justify-between'>
+                <NextImage
+                  useSkeleton
+                  className='w-5/12'
+                  src='/images/cabpool/cabpool-stacked.jpg'
+                  width='1094'
+                  height='1314'
+                  alt='Cabpool Destination Select & Status'
+                />
+                <div className='w-7/12 text-right'>
+                  <UnderlineLink
+                    href='https://github.com/PaisWillie/Cabpool-Frontend/'
+                    target='_blank'
+                  >
+                    <h2 className='text-white'>Cabpool</h2>
+                  </UnderlineLink>
+                  <h5 className='text-gray-400'>
+                    Taxi + Carpooling. You get the jist.
+                  </h5>
+                  <p className='text-sm italic text-gray-600'>
+                    React Native, TypeScript, Node.js, Express.js, Firebase,
+                    Google Maps API
+                  </p>
                 </div>
               </div>
-              <div className='mt-24'>
-                <div className='flex flex-row items-center justify-between'>
-                  <div className='w-7/12 text-left'>
-                    <UnderlineLink
-                      href='https://github.com/PaisWillie/WaveDirect-App'
-                      target='_blank'
-                    >
-                      <h2 className='text-white'>WaveDirect App</h2>
-                    </UnderlineLink>
-                    <h5 className='text-gray-400'>
-                      2x hackathon winner.
-                      <br />
-                      Built for WaveDirect customers.
-                    </h5>
-                    <p className='text-sm italic text-gray-600'>
-                      Flutter, Dart, Google Maps API
-                    </p>
-                  </div>
-                  <NextImage
-                    useSkeleton
-                    className='w-5/12'
-                    src='/images/wavedirect-app/wavedirect-stacked.jpg'
-                    width='798'
-                    height='942'
-                    alt='WaveDirect App Startup and Home Screen'
-                  />
+            </div>
+            <div className='mt-24'>
+              <div className='flex flex-row items-center justify-between'>
+                <div className='w-7/12 text-left'>
+                  <UnderlineLink
+                    href='https://github.com/PaisWillie/WaveDirect-App'
+                    target='_blank'
+                  >
+                    <h2 className='text-white'>WaveDirect App</h2>
+                  </UnderlineLink>
+                  <h5 className='text-gray-400'>
+                    2x hackathon winner.
+                    <br />
+                    Built for WaveDirect ISP customers.
+                  </h5>
+                  <p className='text-sm italic text-gray-600'>
+                    Flutter, Dart, Google Maps API
+                  </p>
+                </div>
+                <NextImage
+                  useSkeleton
+                  className='w-5/12'
+                  src='/images/wavedirect-app/wavedirect-stacked.jpg'
+                  width='798'
+                  height='942'
+                  alt='WaveDirect App Startup and Home Screen'
+                />
+              </div>
+            </div>
+            <div className='mt-24'>
+              <div className='flex flex-row items-center justify-between'>
+                <NextImage
+                  useSkeleton
+                  className='w-7/12'
+                  src='/images/cosy-pos/cosy-pos-stacked.jpg'
+                  width='1810'
+                  height='1246'
+                  alt='WaveDirect App Startup and Home Screen'
+                />
+                <div className='w-5/12 text-right'>
+                  <UnderlineLink
+                    href='https://github.com/PaisWillie/Cosy-POS'
+                    target='_blank'
+                  >
+                    <div className='flex flex-row items-end'>
+                      <p className='ml-2 mr-3 text-sm text-gray-700'>(WIP)</p>
+                      <h2 className='text-white'>Cosy POS</h2>
+                    </div>
+                  </UnderlineLink>
+                  <h5 className='text-gray-400'>
+                    A modernized point-of-sale system, right from your own iPad.
+                  </h5>
+                  <p className='text-sm italic text-gray-600'>
+                    Flutter, Dart, Node.js, Express.js, Firebase
+                  </p>
                 </div>
               </div>
             </div>
