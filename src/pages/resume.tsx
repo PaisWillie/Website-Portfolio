@@ -11,7 +11,7 @@ import Seo from '@/components/Seo';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-export default function Resume() {
+export default function ResumePage() {
   return (
     <Layout>
       <Seo templateTitle='Resume' description="William Pai's Resume" />
