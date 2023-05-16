@@ -156,7 +156,7 @@ export default function ParallaxHome() {
                   >
                     <div className='flex flex-row items-end'>
                       <p className='ml-2 mr-3 text-sm text-gray-700'>(WIP)</p>
-                      <h2 className='text-white'>Cosy POS</h2>
+                      <h2 className='text-white'>CosyPOS</h2>
                     </div>
                   </UnderlineLink>
                   <h5 className='text-gray-400'>
