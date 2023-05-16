@@ -19,6 +19,7 @@ export default function ParallaxHome() {
   return (
     <Layout>
       <Seo />
+
       <main>
         <section className='min-h-screen w-full bg-black'>
           <Parallax ref={parallax} pages={3.6}>
