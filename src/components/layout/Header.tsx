@@ -5,7 +5,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 const links = [
   { href: '/#about-me', label: 'About Me' },
   { href: '/#projects', label: 'Projects' },
-  // { href: '/', label: 'Experiences' },
+  { href: '/experiences', label: 'Experiences' },
   { href: '/resume', label: 'Resume' },
 ];
 
