@@ -30,7 +30,7 @@ export default function HomePage() {
               experience, and I love implementing this principle in my work.
             </p>
             <p className='mt-6 text-gray-400'>
-              I&apos;m currently looking for an 12 or 16-month co-op internship
+              I&apos;m currently looking for a 12 or 16-month co-op internship
               starting in Summer 2024. If you&apos;re interested in working
               together, feel free to reach out!
             </p>
