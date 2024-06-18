@@ -9,18 +9,20 @@ const Experiences = () => {
       <Seo templateTitle='Resume' description="William Pai's Resume" />
 
       <main>
-        <section className='bg-black  px-96'>
+        <section className='bg-black'>
           <div className='layout flex min-h-screen flex-col items-center justify-center text-left'>
-            <div className='flex w-full flex-row'>
-              <NextImage
-                draggable={false}
-                src='/images/insidedesk/insidevault.jpg'
-                alt='InsideVault'
-                width={658}
-                height={1494}
-                className='w-5/12'
-              />
-              <div className='flex w-7/12 flex-col items-end justify-center pl-12 text-right text-white'>
+            <div className='flex w-full flex-col items-end gap-y-12 md:flex-row md:items-center'>
+              <div className='flex w-full flex-row justify-center'>
+                <NextImage
+                  draggable={false}
+                  src='/images/insidedesk/insidevault.jpg'
+                  alt='InsideVault'
+                  width={658}
+                  height={1494}
+                  className='w-5/12 md:w-full'
+                />
+              </div>
+              <div className='flex flex-col items-end justify-center pl-12 text-right text-white'>
                 <h1>InsideDesk Inc.</h1>
                 <h3>Software Engineer</h3>
                 <span className='text-gray-400'>Internship - 2022</span>

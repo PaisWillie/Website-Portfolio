@@ -17,7 +17,7 @@ export default function ResumePage() {
       <Seo templateTitle='Resume' description="William Pai's Resume" />
 
       <main>
-        <section className='bg-black  px-96'>
+        <section className='bg-black'>
           <div className='layout flex min-h-screen flex-col items-center justify-center text-left'>
             <Document file='/pdfs/resume.pdf'>
               <Page pageNumber={1} />
