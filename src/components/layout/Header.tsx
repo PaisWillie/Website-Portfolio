@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import clsxm from '@/lib/clsxm';
+
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
@@ -33,7 +35,10 @@ export default function Header() {
               <li key={`${href}${label}`}>
                 <UnstyledLink
                   href={href}
-                  className='text-gray-400 hover:text-white'
+                  className={clsxm([
+                    'text-gray-400 hover:text-white',
+                    label === 'About Me' && 'hidden md:block',
+                  ])}
                 >
                   {label}
                 </UnstyledLink>
