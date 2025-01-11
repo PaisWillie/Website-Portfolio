@@ -48,6 +48,28 @@ const Experiences = () => {
                 </ArrowLink>
               </div>
             </div>
+            <div className='flex flex-col items-end justify-center pl-12 text-right text-white'>
+              <h1>SOTI Inc.</h1>
+              <h3>Software Developer</h3>
+              <span className='text-gray-400'>Internship - 2023-2024</span>
+              <p className='pt-8'>
+                At SOTI Inc., I contributed to the development of XSight, a
+                platform for managing diagnostic data across thousands of iOS,
+                Android, and other mobile devices. I worked on full stack
+                development using Angular, Bootstrap, and .NET C#. One of my key
+                projects was implementing a survey app with Entity Framework
+                Core, SQL databases, and JWT authentication. Additionally, I
+                played a significant role in improving product stability by
+                resolving Jira tickets, integrating Jenkins automation, and
+                implementing Jasmine/Karma unit tests. I also led several major
+                Angular version upgrades, refactoring code to address package
+                dependencies, and redeveloped the company&apos;s UI component
+                library to ensure consistency and long-term support.
+              </p>
+              <ArrowLink href='https://www.soti.net/' className='mt-8'>
+                Click here for more details
+              </ArrowLink>
+            </div>
           </div>
         </section>
       </main>
