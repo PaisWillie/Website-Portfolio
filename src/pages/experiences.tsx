@@ -10,19 +10,19 @@ const Experiences = () => {
 
       <main>
         <section className='bg-black'>
-          <div className='layout flex min-h-screen flex-col items-center justify-center text-left'>
+          <div className='layout flex min-h-screen flex-col items-center justify-center pb-16 text-left md:pb-32'>
             <div className='flex w-full flex-col items-end gap-y-12 md:flex-row md:items-center'>
-              <div className='flex w-full flex-row justify-center'>
+              <div className='flex w-full flex-row justify-center md:w-5/12'>
                 <NextImage
                   draggable={false}
                   src='/images/insidedesk/insidevault.jpg'
                   alt='InsideVault'
                   width={658}
                   height={1494}
-                  className='w-5/12 md:w-full'
+                  className='w-8/12 md:w-full'
                 />
               </div>
-              <div className='flex flex-col items-end justify-center pl-12 text-right text-white'>
+              <div className='flex w-full flex-col items-end justify-center pl-0 text-right text-white md:w-7/12 md:pl-12'>
                 <h1>InsideDesk Inc.</h1>
                 <h3>Software Engineer</h3>
                 <span className='text-gray-400'>Internship - 2022</span>

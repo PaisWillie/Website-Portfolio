@@ -16,12 +16,18 @@ export default function HomePage() {
       <Seo />
       <main>
         <section className='bg-black pb-24 md:px-24 lg:px-48 xl:px-96'>
-          <div className='layout items-left flex min-h-screen flex-col justify-start text-left'>
-            <h1 className='text-white'>Software Developer</h1>
+          <div className='layout flex min-h-screen flex-col justify-start text-left'>
+            <h1 className='text-2xl text-white md:text-4xl'>
+              Software Developer
+            </h1>
             <a id='about-me' />
-            <h1 className='text-white'>creating thoughtful,</h1>
-            <h1 className='text-white'>intuitive mobile & web apps.</h1>
-            <p className='mt-12 text-gray-400'>
+            <h1 className='text-2xl text-white md:text-4xl'>
+              creating thoughtful,
+            </h1>
+            <h1 className='text-2xl text-white md:text-4xl'>
+              intuitive mobile & web apps.
+            </h1>
+            <p className='mt-6 text-base text-gray-400 md:mt-12 md:text-lg'>
               I&apos;m Willie, a Canadian 4th year software engineering student
               at McMaster University. My passion lies in crafting user-friendly
               mobile and web applications, where simplicity and usability are at
@@ -29,7 +35,7 @@ export default function HomePage() {
               interface is integral to delivering an exceptional user
               experience, and I love implementing this principle in my work.
             </p>
-            <p className='mt-6 text-gray-400'>
+            <p className='mt-3 text-base text-gray-400 md:mt-6 md:text-lg'>
               I&apos;m currently looking for a co-op internship starting in
               Summer 2025 or full-time in Summer 2026. If you&apos;re interested
               in working together, feel free to reach out!
@@ -54,16 +60,16 @@ export default function HomePage() {
             <a id='projects' />
             <Divider className='bg-white' />
             <div className='mt-24'>
-              <div className='flex flex-row items-center justify-between'>
+              <div className='flex flex-col items-center gap-8 md:flex-row md:justify-between'>
                 <NextImage
                   useSkeleton
-                  className='w-5/12'
+                  className='mb-6 w-full md:mb-0 md:w-5/12'
                   src='/images/cabpool/cabpool-stacked.jpg'
                   width='1094'
                   height='1314'
                   alt='Cabpool Destination Select & Status'
                 />
-                <div className='w-7/12 text-right'>
+                <div className='w-full text-left text-right md:w-7/12 md:text-right'>
                   <UnderlineLink
                     href='https://github.com/PaisWillie/Cabpool-Frontend/'
                     target='_blank'
@@ -81,7 +87,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className='mt-24'>
-              <div className='flex flex-row items-center justify-between'>
+              <div className='flex flex-col items-center gap-8 md:flex-row md:justify-between'>
                 <div className='w-7/12 text-left'>
                   <UnderlineLink
                     href='https://github.com/PaisWillie/WaveDirect-App'
@@ -100,7 +106,7 @@ export default function HomePage() {
                 </div>
                 <NextImage
                   useSkeleton
-                  className='w-5/12'
+                  className='mb-6 w-full md:mb-0 md:w-5/12'
                   src='/images/wavedirect-app/wavedirect-stacked.jpg'
                   width='798'
                   height='942'
@@ -109,7 +115,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className='mt-24'>
-              <div className='flex flex-row items-center justify-between'>
+              <div className='flex flex-col items-center gap-8 md:flex-row md:justify-between'>
                 <NextImage
                   useSkeleton
                   className='w-7/12'
@@ -118,7 +124,7 @@ export default function HomePage() {
                   height='1246'
                   alt='CosyPOS Menu'
                 />
-                <div className='w-5/12 text-right'>
+                <div className='mb-6 w-full text-right md:mb-0 md:w-5/12'>
                   <UnderlineLink
                     href='https://github.com/PaisWillie/Cosy-POS'
                     target='_blank'
