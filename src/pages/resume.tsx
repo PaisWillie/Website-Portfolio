@@ -33,13 +33,14 @@ export default function ResumePage() {
 
       <main>
         <section className='bg-black'>
-          <div className='layout flex min-h-screen flex-col items-center justify-center text-left'>
+          <div className='layout flex min-h-screen flex-col items-center justify-center pb-16 text-left md:pb-32'>
             <div
               ref={containerRef}
               className='flex w-full max-w-[600px] flex-col items-center px-2 sm:px-0'
             >
               <Document file='/pdfs/resume.pdf'>
                 <Page pageNumber={1} width={pageWidth} />
+                <Page pageNumber={2} width={pageWidth} className='mt-1' />
               </Document>
               <ArrowLink href='/pdfs/resume.pdf' className='mt-2 text-white'>
                 Download
